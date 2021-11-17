@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro Simples</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="Docs.css
+  ">
+
+</head>
+
+<body>
+
+
+
+  <form class="container-fluid">
+
+    <div>
+      <h1>RECODE</h1>
+    </div>
+
+
+    <label class="mb-3" for="pnome">Nome</label><br>
+    <input class="form-control border border-primary" type="text" id="pnome" name="pnome" placeholder="Seu nome">
+
+    <br>
+
+    <label for="psobre">Sobrenome</label><br>
+    <input class="form-control border border-primary" type="text" id="psobre" name="psobre" placeholder="Seu sobrenome">
+
+    <br>
+
+    <label for="cpf">Informe seu Email</label><br>
+    <input class="form-control border border-primary" type="email" id="email" name="email"
+      placeholder="Digite seu email">
+    <br>
+
+    <div>
+      <span>
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="male" name="genero" value="male">
+
+      </span>
+
+      <span>
+        <label for="Feminino">Feminino</label>
+        <input type="radio" id="female" name="genero" value="female">
+
+      </span>
+
+      <span>
+        <label for="Outros">Outros</label>
+        <input type="radio" id="outro" name="genero" value="outro">
+      </span>
+      <br>
+
+    </div>
+    <br>
+
+    <div>
+
+      <label for="estados" class="text-white">Escolha o Estado:</label>
+      <select name="estados" id="estados" class="fundo bg-light">
+
+        <option value="RJ">Rio de Janiero-RJ</option>
+
+        <option value="SP">São Paulo-SP</option>
+
+        <option value="RJ">Ceará-CE</option>
+
+        <option value="RJ">Minas Gerais-MG</option>
+      </select>
+
+
+    </div><br>
+
+
+    <div>
+
+
+      <input type="checkbox" name="aceitoEmail" id="aceitoEmail" value="sempreContato">
+      <label for="contatoEmail" class="fundo-txt"> Aceito receber novos e-mails</label>
+      <br>
+
+      <input type="checkbox" name="ofertas" id="ofertas" value="cursoOfertas">
+      <label for="cursoOfertas" class="fundo-txt"> Aceitos receber novos curso da RECODE pelo Email</label>
+
+      <br>
+      <br>
+
+
+      <input class="btn btn-primary btn-block sombra botom" type="submit" value="Enviar Cadastro">
+
+      <input class="btn btn-primary btn-block sombra botom" type="reset" value="Resertar as informações">
+      <br>
+
+    </div>
+
+
+
+
+
+  </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="Js.js"></script>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.divjs"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

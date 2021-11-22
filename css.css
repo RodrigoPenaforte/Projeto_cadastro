@@ -1,0 +1,33 @@
+.container{
+    background-color: indigo;
+    color:rgb(255, 255, 255)
+    
+}
+
+
+.container-fluid{
+    background-color: indigo;
+    color:rgb(255, 255, 255)
+}
+
+
+.fundo{
+   color: indigo; font-family: 'Franklin Gothic Medium'
+}
+
+.fundo-txt{
+    font-family: 'Franklin Gothic Medium'
+ }
+
+
+ .botom{
+     border-radius: 8px;
+ }
+
+ .sombra:hover{
+     background-color: indigo;
+    box-shadow: inset 6px 6px 6px; 
+    font-family: 'Franklin Gothic Medium'
+ }
+
+ 
